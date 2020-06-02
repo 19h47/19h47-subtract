@@ -1,9 +1,9 @@
 /**
- * Substraction
+ * subtract
  *
  * @param {total} total
  * @param {number} number
  */
-const substraction = (total, number) => total - number;
+const subtract = (total, number) => total - number;
 
-export default substraction;
+export default subtract;
