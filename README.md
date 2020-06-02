@@ -1,6 +1,6 @@
 # @19h47/subtract
 
-Subtract numbers.
+**@19h47/subtract** is a small module to subtract numbers.
 
 ```javascript
 import subtract from '@19h47/subtract';
