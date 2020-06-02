@@ -1,0 +1,25 @@
+{
+	"name": "@19h47/subtract",
+	"version": "0.0.0",
+	"description": "subtract",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github.com/19h47/19h47-subtract"
+	},
+	"keywords": [
+		"subtract"
+	],
+	"author": "Jérémy Levron",
+	"license": "ISC",
+	"devDependencies": {
+		"@19h47/prettier-config": "^1.0.0",
+		"@babel/core": "^7.10.2",
+		"@babel/preset-env": "^7.10.2",
+		"babel-jest": "^26.0.1",
+		"jest": "^26.0.1"
+	}
+}
