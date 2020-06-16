@@ -4,7 +4,9 @@
 	"description": "subtract",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"start": "./bin/start",
+		"prod": "./bin/production"
 	},
 	"repository": {
 		"type": "git",
@@ -20,6 +22,30 @@
 		"@babel/core": "^7.10.2",
 		"@babel/preset-env": "^7.10.2",
 		"babel-jest": "^26.0.1",
-		"jest": "^26.0.1"
+		"jest": "^26.0.1",
+		"@19h47/prettier-config": "^1.0.0",
+		"@babel/core": "^7.10.2",
+		"@babel/preset-env": "^7.10.2",
+		"babel-jest": "^26.0.1",
+		"jest": "^26.0.1",
+		"prettier": "^2.0.5",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0",
+		"webpack-merge": "^4.2.2",
+		"babel-eslint": "^10.1.0",
+		"babel-loader": "^8.1.0",
+		"clean-webpack-plugin": "^3.0.0",
+		"eslint": "^7.2.0",
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-config-standard": "^14.1.1",
+		"eslint-loader": "^4.0.2",
+		"eslint-plugin-import": "^2.21.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"html-webpack-plugin": "^4.3.0",
+		"webpack-notifier": "^1.8.0"
 	}
 }
