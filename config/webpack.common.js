@@ -22,7 +22,7 @@ module.exports = {
 		docs: resolve('index.js'),
 	},
 	output: {
-		library: 'substract',
+		library: 'subtract',
 		libraryTarget: 'umd',
 		filename: '../[name]/main.js',
 	},

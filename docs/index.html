@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Substract</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/></head><body><div class="container"><div class="row"><div class="col-12 my-5"><h1><a href="https://github.com/19h47/19h47-sum">Substract</a></h1></div></div><div class="row"><div class="col-12"><div class="input-group"><div class="input-group-prepend"><span class="input-group-text">Let's subtract!</span></div><input class="form-control js-minuend" type="number" value="2"/><div class="input-group-append"><span class="input-group-text border-right-0">-</span></div><input class="form-control js-subtrahend" type="number" value="1"/><div class="input-group-append"><span class="input-group-text border-right-0">=</span></div><input class="form-control js-difference" type="number" value="1" readonly="readonly"/></div></div></div></div><script src="./main.js"></script><script>const $minuend = document.querySelector('.js-minuend');
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Subtract</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/></head><body><div class="container"><div class="row"><div class="col-12 my-5"><h1><a href="https://github.com/19h47/19h47-subtract">Subtract</a></h1></div></div><div class="row"><div class="col-12"><div class="input-group"><div class="input-group-prepend"><span class="input-group-text">Let's subtract!</span></div><input class="form-control js-minuend" type="number" value="2"/><div class="input-group-append"><span class="input-group-text border-right-0">-</span></div><input class="form-control js-subtrahend" type="number" value="1"/><div class="input-group-append"><span class="input-group-text border-right-0">=</span></div><input class="form-control js-difference" type="number" value="1" readonly="readonly"/></div></div></div></div><script src="./main.js"></script><script>const $minuend = document.querySelector('.js-minuend');
 			const $subtrahend = document.querySelector('.js-subtrahend');
 			const $difference = document.querySelector('.js-difference');
 
@@ -6,12 +6,12 @@
 				const minuend = parseInt(event.target.value, 10);
 				const subtrahend = parseInt($subtrahend.value, 10);
 
-				$difference.value = substract.default(minuend, subtrahend);
+				$difference.value = subtract.default(minuend, subtrahend);
 			});
 
 			$subtrahend.addEventListener('input', event => {
 				const subtrahend = parseInt(event.target.value, 10);
 				const minuend = parseInt($minuend.value, 10);
 
-				$difference.value = substract.default(minuend, subtrahend);
+				$difference.value = subtract.default(minuend, subtrahend);
 			});</script></body></html>
