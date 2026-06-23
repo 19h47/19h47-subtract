@@ -39,7 +39,7 @@
 		"prettier": "^2.1.2",
 		"webpack": "^4.44.2",
 		"webpack-cli": "^3.3.12",
-		"webpack-dev-server": "^5.2.4",
+		"webpack-dev-server": "^5.2.5",
 		"webpack-merge": "^5.1.4",
 		"webpack-notifier": "^1.8.0"
 	}
